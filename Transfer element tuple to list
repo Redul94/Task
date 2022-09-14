@@ -1,0 +1,8 @@
+tup=('a','b','c','d','e')
+print(tup)
+list=[]
+(a,b,c,d,e)=tup
+list.append(a)
+list.append(b)
+list.append(c)
+print(list)
