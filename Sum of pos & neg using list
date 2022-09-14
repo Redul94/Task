@@ -1,0 +1,12 @@
+list1=[1,2,3,-1,-2,-3]
+sum1=0
+sum2=0
+for i in list1:
+     if i > 0:
+       sum1=sum1+1
+
+     elif i<0:
+       sum2=sum2+1
+
+print(sum1)
+print(sum2)
